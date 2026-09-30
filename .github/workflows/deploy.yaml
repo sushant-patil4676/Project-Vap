@@ -27,7 +27,6 @@ jobs:
       - name: Install Dependencies
         run: |
           pip install -r "RIT project/RIT project/backend/requirements.txt"
-
       - name: Run Tests
         run: |
           cd "RIT project/RIT project/backend"
